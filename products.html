@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style-products.css">
+    <link rel="stylesheet" href="./css/style-complements.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"/>
+    <script src="./js/main-product.js" defer></script>
+    <title>Academlo ClotheStore Products</title>
+</head>
+
+<body>
+  
+    <!-- HAMBURGER MENU -->
+    <div class="hamburger_menu">
+        <div class="hamburger_menu_select" id="hamburger_menu_select">
+            <button class="hamburger_icon_list">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg_hamburger_icon_style">
+                    <title>Ícono Menu</title>
+                    <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+                </svg>
+            </button>                 
+            <ion-icon name="chevron-up-outline" class="icon_arrow"></ion-icon>
+        </div>
+
+        <ul class="hamburger_menu_list">
+
+            <a href="./index.html" class="hamburger_menu_option" style="--i:3;">
+                <button class="hamburger_icon_list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg_hamburger_icon_style">
+                        <title>Home Menu</title>
+                        <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/>
+                    </svg>
+                </button> 
+                <li>
+                    <span class="hamburger_menu_option_text">Home</span>
+                </li>
+            </a>
+
+            <a href="./products.html" class="hamburger_menu_option" style="--i:2;">
+                <button class="hamburger_icon_list">
+                    <title>Productos Menu</title>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg_hamburger_icon_style">
+                        <path d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0h12.6c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7V448c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64V197.7l-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0h12.6z"/>
+                    </svg>
+                </button> 
+                <li>
+                    <span class="hamburger_menu_option_text">Products</span>
+                </li>
+            </a>
+
+            <a href="#" class="hamburger_menu_option hamburger_cart" style="--i:2;">
+                <button class="hamburger_icon_list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg_hamburger_icon_style">
+                        <title>Ícono Cart</title>
+                        <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+                    </svg>
+                </button>
+                <li>
+                    <span class="hamburger_menu_option_text">Cart</span>
+                </li>
+            </a>
+          
+        </ul>
+    </div>
+
+    <!-- PRODUCT CATEGORY MENU-->
+    <div class="product_category_menu">
+        <div class="product_category_select" id="product_category_select">
+            <span id="product_category_text">Category</span>                
+            <ion-icon name="chevron-up-outline" class="icon_arrow"></ion-icon>
+        </div>
+
+        <ul class="product_category_list">
+            <li class="product_category_option" style="--i:3;">
+                <img src="./img/All.png" alt="Shirt" class="img">
+                <span class="product_category_option_text">All</span>
+            </li>
+            <li class="product_category_option" style="--i:3;">
+                <img src="./img/shirt5_cnwq0w.png" alt="Shirt" class="img">
+                <span class="product_category_option_text">Shirt</span>
+            </li>
+            <li class="product_category_option" style="--i:2;">
+                <img src="./img/hoddie2_utnolh.png" alt="Hoddle" class="img">
+                <span class="product_category_option_text">Hoddle</span>
+            </li>
+            <li class="product_category_option" style="--i:1;">
+                <img src="./img/sweater1_o8qh0p.png" alt="Sweater" class="img">
+                <span class="product_category_option_text">Sweater</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- SECCION HEADER -->
+    <header id="header_container">
+
+        <!-- SECCION NAV -->
+        <div class="header_nav">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="svg_logo_academlo_style">
+                <title>Academlo Logo</title>
+                <path d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z"></path>
+                <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z"></path>
+            </svg>      
+
+            <nav class="header_nav_bar">
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./products.html "target="">
+                        <li>Products</li>
+                    </a>
+                </ul>
+            </nav>
+
+        </div>
+
+        <!-- SECCION MENU -->
+        <div class="header_menu">
+
+            <button class="header_icon_cart">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg_header_icon_cart_style">
+                    <title>Ícono Cart</title>
+                    <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+                </svg>
+            </button>
+
+            <div class="header_cart_counter">0</div>          
+
+            <div class="header_dark_mode">
+
+                <input type="checkbox" name="" id="dark_mode_toggle">
+                <label for="dark_mode_toggle">
+
+                    <svg version="1.0" id="Layer_1" class="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                        <g>
+                            <circle fill-rule="evenodd" clip-rule="evenodd" cx="32.003" cy="32.005" r="16.001"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.001,31.997c0-2.211-1.789-4-4-4H4c-2.211,0-4,1.789-4,4
+                                s1.789,4,4,4h4C10.212,35.997,12.001,34.208,12.001,31.997z"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.204,46.139l-2.832,2.833c-1.563,1.562-1.563,4.094,0,5.656
+                                c1.562,1.562,4.094,1.562,5.657,0l2.833-2.832c1.562-1.562,1.562-4.095,0-5.657C16.298,44.576,13.767,44.576,12.204,46.139z"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M32.003,51.999c-2.211,0-4,1.789-4,4V60c0,2.211,1.789,4,4,4
+                                s4-1.789,4-4l-0.004-4.001C36.003,53.788,34.21,51.999,32.003,51.999z"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M51.798,46.143c-1.559-1.566-4.091-1.566-5.653-0.004
+                                s-1.562,4.095,0,5.657l2.829,2.828c1.562,1.57,4.094,1.562,5.656,0s1.566-4.09,0-5.656L51.798,46.143z"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M60.006,27.997l-4.009,0.008
+                                c-2.203-0.008-3.992,1.781-3.992,3.992c-0.008,2.211,1.789,4,3.992,4h4.001c2.219,0.008,4-1.789,4-4
+                                C64.002,29.79,62.217,27.997,60.006,27.997z"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M51.798,17.859l2.828-2.829c1.574-1.566,1.562-4.094,0-5.657
+                                c-1.559-1.567-4.09-1.567-5.652-0.004l-2.829,2.836c-1.562,1.555-1.562,4.086,0,5.649C47.699,19.426,50.239,19.418,51.798,17.859z"
+                                />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M32.003,11.995c2.207,0.016,4-1.789,4-3.992v-4
+                                c0-2.219-1.789-4-4-4c-2.211-0.008-4,1.781-4,3.993l0.008,4.008C28.003,10.206,29.792,11.995,32.003,11.995z"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.212,17.855c1.555,1.562,4.079,1.562,5.646-0.004
+                                c1.574-1.551,1.566-4.09,0.008-5.649l-2.829-2.828c-1.57-1.571-4.094-1.559-5.657,0c-1.575,1.559-1.575,4.09-0.012,5.653
+                                L12.212,17.855z"/>
+                        </g>
+                    </svg>
+
+                    <svg viewBox="0 0 24 24" class="moon" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+
+                </label>
+
+            </div>
+            
+        </div>
+
+    </header>
+
+    <!-- MODAL PRODUCT CATALOG  -->
+    <section class="modal_product_catalog">
+
+        <div class="modal_product_container"></div>
+
+    </section>
+
+    <!-- MODAL CART -->
+    <section class="modal_menu_cart">
+
+        <div class="modal_cart_products"></div>
+
+        <div class="modal_cart_total">
+            <div class="modal_cart_total_info">
+                <div class="info_amount">Amount</div>
+                <div class="info_total">Total</div>
+            </div>
+            <div class="modal_btn_cart">
+                <button class="modal_btn_buy">buy</button>
+                <button class="modal_btn_close">Close</button>
+            </div>          
+        </div>
+
+    </section>
+
+    <!-- SECCION MAIN -->
+    <main id="main_container">
+
+        <!-- PRODUCT TITLE -->
+        <section class="product_title_container">
+            
+            <h3 class="product_title">Product Catalog</h3>
+
+            <!-- PRODUCT CATALOG LOGO -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="svg_product_catalog_logo_style">
+                <title>Academlo Logo</title>
+                <g>
+                    <path
+                    d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                    </path>
+                </g>
+            </svg>
+            
+        </section>
+
+        <!-- PRODUCT CATALOG -->
+        <div class="product_catalog_container">
+        </div>   
+
+    </main>
+ 
+    <!-- SECCION FOOTER -->
+    <footer class="footer_container">
+
+        <div class="redesSociales">
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg_facebook_logo_style">
+                    <title>Facebook Logo</title>
+                    <path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
+                </svg>
+            </a>
+
+            <a href="https://twitter.com/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg_x_logo_style">
+                    <title>X Logo</title>
+                    <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg>
+                </svg>
+            </a>
+
+            <a href="https://instagram.com/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg_instagram_logo_style">
+                        <title>Instagram Logo</title>
+                        <path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+                </svg>
+            </a>
+
+        </div>
+
+        <div class="footerLinks">
+            <a href="./contacto.html">Contact</a>
+            <a href="./nosotros.html">About Us</a>
+            <a href="./politicas.html">Privacy Policies</a>
+            <a href="./terminos.html"">Terms and Conditions</a>
+        </div>
+
+        <div class="marcaRegistrada">
+            © 2023 Academlo Inc.
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
